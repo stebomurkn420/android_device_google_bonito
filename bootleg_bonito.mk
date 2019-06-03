@@ -21,6 +21,10 @@
 # lines, aosp and du, hence its name.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
+
 # Include DU common configuration
 include vendor/bootleggers/config/common_full_phone.mk
 
