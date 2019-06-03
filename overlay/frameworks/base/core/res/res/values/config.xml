@@ -425,4 +425,7 @@
 
     <!-- Set direct background reclaim threshold -->
     <integer name="config_extraFreeKbytesAbsolute">80000</integer>
+
+    <!-- Does device support ActiveEdge? -->
+    <bool name="config_hasActiveEdge">true</bool>
 </resources>
