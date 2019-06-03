@@ -100,3 +100,6 @@ PRODUCT_COPY_FILES += \
 # Dumpstate HAL
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.bonito
+
+# Google apps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
