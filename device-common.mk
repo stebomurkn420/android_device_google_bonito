@@ -24,6 +24,14 @@ PRODUCT_PLATFORM := sdm670
 include device/google/bonito/device-audio-mfg.mk
 include device/google/bonito/device.mk
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Bug 77867216
 PRODUCT_PROPERTY_OVERRIDES += audio.adm.buffering.ms=3
 PRODUCT_PROPERTY_OVERRIDES += vendor.audio.adm.buffering.ms=3

@@ -428,4 +428,7 @@
 
     <!-- Does device support ActiveEdge? -->
     <bool name="config_hasActiveEdge">true</bool>
+
+    <!-- Should be set to true for swipe up gesture. -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
 </resources>
