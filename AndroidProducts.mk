@@ -16,4 +16,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bonito.mk \
+    $(LOCAL_DIR)/dot_bonito.mk \
     $(LOCAL_DIR)/aosp_sargo.mk \
