@@ -21,6 +21,14 @@ LOCAL_PATH := device/google/bonito
 # define hardware platform
 PRODUCT_PLATFORM := sdm670
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 include device/google/bonito/device-audio-mfg.mk
 include device/google/bonito/device.mk
 
